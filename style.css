@@ -11,6 +11,7 @@ h1 {
 section {
   display: flex;
   align-items: center;
+  margin-bottom: 150px;
 }
 .top-banner {
   background-image: url(images/top-banner.png);
@@ -26,12 +27,23 @@ section {
 }
 .right-half img {
   width: 80%;
-  padding-left: 2%;
 }
-.left-half .link-button {
+.link-button {
   text-decoration: none;
   color: white;
   background-image: linear-gradient(orange, tomato);
   padding: 10px 40px;
   border-radius: 5px;
+}
+.left-half img {
+  width: 80%;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.dream-big .right-half {
+  padding-right: 120px;
 }
