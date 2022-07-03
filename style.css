@@ -1,3 +1,4 @@
+/* body css */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0px;
@@ -8,11 +9,12 @@ h1 {
 .oranged {
   color: orange;
 }
-section {
+.flexible-container {
   display: flex;
   align-items: center;
   margin-bottom: 150px;
 }
+/* --- top banner --- */
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
@@ -38,6 +40,7 @@ section {
 .left-half img {
   width: 80%;
 }
+/* dream big */
 .dream-big {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
@@ -46,4 +49,32 @@ section {
 }
 .dream-big .right-half {
   padding-right: 120px;
+}
+/* experience */
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  padding: 15px;
+  border-radius: 10px;
+}
+.full-stack {
+  border-left: 8px solid orangered;
+}
+.baby-stack {
+  border-left: 8px solid blue;
+}
+.experience-item h1 {
+  font-size: 30px;
+}
+/* full stack */
+footer {
+  text-align: center;
 }
